@@ -1,0 +1,173 @@
+[
+    {
+        "id":1,
+        "title": "Carta: Gandalf the White",
+        "description": "Carta para Magic: the gathering, Expansion Universe Beyond Lord of the Ring - J.R.R. Tolkien. ",
+        "category": "singles",
+        "price": 4390,
+        "stock": 3,
+        "img": "https://mythicspoiler.com/ltr/cards/gandalfthewhite.jpg"
+    },
+    {
+        "id":2,
+        "title": "Carta: Call of the Ring",
+        "description": "Carta para Magic: the gathering, Expansion Universe Beyond Lord of the Ring - J.R.R. Tolkien. ",
+        "category": "singles",
+        "price": 6730,
+        "stock": 2,
+        "img": "https://mythicspoiler.com/ltr/cards/callofthering.jpg"
+    },
+    {
+        "id":3,
+        "title":"Carta: Delighted Halfling",
+        "description":"Carta para Magic: the gathering, Expansion Universe Beyond Lord of the Ring - J.R.R. Tolkien. ",
+        "category":"singles",
+        "price":8190,
+        "stock":5,
+        "img":"https://mythicspoiler.com/ltr/cards/delightedhalfling.jpg"
+    },
+    {
+        "id":5,
+        "title":"Carta: Sauron the Dark Lord",
+        "description":"Carta para Magic: the gathering, Expansion Universe Beyond Lord of the Ring - J.R.R. Tolkien. ",
+        "category":"singles",
+        "price": 2690,
+        "stock": 3,
+        "img":"https://mythicspoiler.com/ltr/cards/sauronthedarklord.jpg"
+    },
+    {
+        "id":6,
+        "title": "Carta: Minas Tirithe",
+        "description": "Carta para Magic: the gathering, Expansion Universe Beyond Lord of the Ring - J.R.R. Tolkien. ",
+        "category": "singles",
+        "price": 2590,
+        "stock": 1,
+        "img":"https://mythicspoiler.com/ltr/cards/minastirith.jpg"
+    },
+    {
+        "id":7,
+        "title":"Carta: The One Ring",
+        "description":"Carta para Magic: the gathering, Expansion Universe Beyond Lord of the Ring - J.R.R. Tolkien. ",
+        "category":"singles",
+        "price": 14990,
+        "stock":1,
+        "img":"https://mythicspoiler.com/ltr/cards/theonering.jpg"
+    },
+    {
+        "id":8,
+        "title":"Carta: Samwise Gambee",
+        "description":"Carta para Magic: the gathering, Expansion Universe Beyond Lord of the Ring - J.R.R. Tolkien. ",
+        "category":"singles",
+        "price":1090,
+        "stock":10,
+        "img":"https://mythicspoiler.com/ltr/cards/samwisegamgee.jpg"
+    },
+    {
+        "id":9,
+        "title":"Carta: Doors of Durin",
+        "description":"Carta para Magic: the gathering, Expansion Universe Beyond Lord of the Ring - J.R.R. Tolkien. ",
+        "category":"singles",
+        "price":2890,
+        "stock":5,
+        "img":"https://mythicspoiler.com/ltr/cards/doorsofdurin.jpg"
+    },
+    {
+        "id":10,
+        "title":"Carta: Nazgul",
+        "description":"Carta para Magic: the gathering, Expansion Universe Beyond Lord of the Ring - J.R.R. Tolkien. ",
+        "category":"singles",
+        "price":3390,
+        "stock":9,
+        "img":"https://mythicspoiler.com/ltr/cards/nazgul.jpg"
+    },
+    {
+        "id":11,
+        "title":"The Lord of the Rings Commander Deck - Food and Fellowship",
+        "description":"¡LUCHA CON TUS AMIGOS! Commander es una forma diferente de jugar a Magic: The Gathering. Se trata de criaturas legendarias, grandes jugadas y luchar contra tus amigos en juegos multijugador épicos.",
+        "category":"sellado",
+        "price":35999,
+        "stock":5,
+        "img":"https://cdn11.bigcommerce.com/s-3b5vpig99v/images/stencil/500x659/products/593254/1238826/ltc-commander-deck-food__92292.1686261468.jpg?c=2"
+    },
+    {
+        "id":12,
+        "title":"The Lord of the Rings Commander Deck - The Hosts of Mordor",
+        "description":"¡LUCHA CON TUS AMIGOS! Commander es una forma diferente de jugar a Magic: The Gathering. Se trata de criaturas legendarias, grandes jugadas y luchar contra tus amigos en juegos multijugador épicos.",
+        "category":"sellado",
+        "price":35999,
+        "stock":5,
+        "img":"https://cdn11.bigcommerce.com/s-3b5vpig99v/images/stencil/500x659/products/593256/1238828/ltc-commander-deck-mordor__72302.1686261498.jpg?c=2"
+    },
+    {
+        "id":13,
+        "title":"The Lord of the Rings Gift Bundle",
+        "description":"La expansión más reciente de Magic presenta su mayor aventura en Universes Beyond hasta el momento, y ahora con un refuerzo de coleccionista adicional que agrega aún más cartas raras a su experiencia. Cada paquete de El Señor de los Anillos contiene: 1 paquete de refuerzo de coleccionista de El Señor de los Anillos - 8 sobres de expansión del set El Señor de los Anillos - 20 tierras básicas de foil - 20 tierras básicas Non-Foil - 4 cartas promocionales Foil que forman un panorama - 1 contador de vida spindown de gran tamaño - 1 caja de almacenamiento reutilizable ",
+        "category":"sellado",
+        "price":29390,
+        "stock":7,
+        "img":"https://cdn11.bigcommerce.com/s-3b5vpig99v/images/stencil/500x659/products/593259/1153932/MicrosoftTeams-image__45167.1679950175.jpg?c=2"
+    },
+    {
+        "id":14,
+        "title":"The Lord of the Rings Set Booster Box",
+        "description":"Los paquetes de refuerzo de El Señor de los Anillos están diseñados para una divertida experiencia de apertura de paquetes. Para aquellos que buscan una manera fácil de comenzar a coleccionar El Señor de los Anillos, los sobres de conjunto brindan una variedad de estilos de cartas con la posibilidad de múltiples cartas raras, ¡y un papel de aluminio en cada paquete!",
+        "category":"sellado",
+        "price":75990,
+        "stock":5,
+        "img": "https://cdn11.bigcommerce.com/s-3b5vpig99v/images/stencil/500x659/products/593245/1153913/MicrosoftTeams-image_4__90527.1679942929.jpg?c=2"
+    },
+    {
+        "id":15,
+        "title":"The Lord of the Rings Set Booster Pack",
+        "description":"Los paquetes de refuerzo de El Señor de los Anillos están diseñados para una divertida experiencia de apertura de paquetes. Para aquellos que buscan una manera fácil de comenzar a coleccionar El Señor de los Anillos, los sobres de conjunto brindan una variedad de estilos de cartas con la posibilidad de múltiples cartas raras, ¡y un papel de aluminio en cada paquete!",
+        "category":"sellado",
+        "price":3990,
+        "stock":52,
+        "img":"https://cdn11.bigcommerce.com/s-3b5vpig99v/images/stencil/500x659/products/593247/1153915/MicrosoftTeams-image_6__62168.1679942965.jpg?c=2"
+    },
+    {
+        "id":16,
+        "title":"Set x7 Dados para Rol - Gold",
+        "description":"Juego completo de dados de metal de alta calidad con siete dados incluyendo D20, D10, D%, D8, D6 y D4.",
+        "category":"accesorios",
+        "price":2790,
+        "stock":2,
+        "img":"https://m.media-amazon.com/images/I/71OEoQv4J5L._AC_SX679_.jpg"
+    },
+    {
+        "id":17,
+        "title":"Set x7 Dados para Rol - Metalizados",
+        "description":"Juego completo de dados de metal de alta calidad con siete dados incluyendo D20, D10, D%, D8, D6 y D4.",
+        "category":"accesorios",
+        "price":2790,
+        "stock":5,
+        "img":"https://m.media-amazon.com/images/I/8114fDQQLfL._AC_SX679_.jpg"
+    },
+    {
+        "id":18,
+        "title":"Dungeons & Dragons: Manual del jugador 5ta Edicion",
+        "description":"Juego completo de dados de metal de alta calidad con siete dados incluyendo D20, D10, D%, D8, D6 y D4.",
+        "category":"accesorios",
+        "price":17990,
+        "stock":5,
+        "img":"https://m.media-amazon.com/images/I/811dDmyv-pL._SX425_.jpg"
+    },
+    {
+        "id":19,
+        "title":"La llamada de Cthulhu - Guía del investigador",
+        "description":"Todo investigador de los Mitos de Cthulhu que se precie de serlo debería tenerlo.Para La llamada de Cthulhu, 7ª edición. Necesitas por lo menos una copia del Manual del Guardián de La llamada de Cthulhu para jugar a La llamada de Cthulhu.",
+        "category":"accesorios",
+        "price":21190,
+        "stock":5,
+        "img":"https://www.drivethrurpg.com/images/17946/336471.png"
+    },
+    {
+        "id":20,
+        "title":"La llamada de Cthulhu - Manual del Guardián",
+        "description":"El Manual del Guardián contiene las reglas básicas, trasfondo, consejos, hechizos y monstruos del juego. Se trata de una herramienta exclusiva para el jugador que ejerce como Guardián, el encargado de plantear la aventura al resto de los jugadores. Para poder jugar a La llamada de Cthulhu es necesario disponer como mínimo de un ejemplar de este libro. Los demás jugadores, que interpretarán a los investigadores, deberían tener una o varias copias del Guía del investigador, en el que se ofrecen reglas adicionales para la creación de personajes, habilidades, ocupaciones, equipo y mucho más. Esta séptima edición de La llamada de Cthulhu es compatible con todos los productos de Chaosium publicados con anterioridad dentro de esta línea.",
+        "category":"accesorios",
+        "price":23190,
+        "stock":5,
+        "img":"https://www.drivethrurpg.com/images/17946/336463.jpg"
+    }
+]

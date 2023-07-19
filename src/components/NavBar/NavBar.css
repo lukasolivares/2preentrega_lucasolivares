@@ -1,0 +1,32 @@
+.navbar_menu {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    background-color: #E5A2A8
+}
+
+.link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    color: black;
+}
+
+.link {
+    margin: 5px;
+}
+
+/*Transformacion del menu*/
+.link {
+    font-weight: bold;
+    transition: transform 0.3s ease-in-out;
+}
+
+.link:hover {
+    font-weight: bold;
+    transform: scale(1.1);
+}
