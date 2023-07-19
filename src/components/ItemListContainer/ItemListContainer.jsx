@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react'
 import { useParams } from 'react-router-dom'
 import arrayProductos from '../../Json/arrayProductos.json'
 import ItemList from '../ItemList/ItemList'
-
+import './ItemListContainer.css'
 
 const ItemListContainer = () => {
     const [item, setItem] = useState([]);
@@ -26,7 +26,7 @@ const ItemListContainer = () => {
     }, [id])
 
 return (
-    <div className='item_list'>
+    <div className='item-list-container'>
         <ItemList item={item}/>
     </div>
     )

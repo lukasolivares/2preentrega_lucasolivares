@@ -1,15 +1,18 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
+import '../ItemList/ItemList.css'
 
 const Item = ({item}) => {
     return (
-        <Link to={"/item/" + Item.id} className='text_card'>
-        <div className='item_card'>
-            <div className='card_container'>
-            <img src= {item.img} className='card_image' alt={item.title}/>
-            <div className='card-body text-center'>
-                <p className='card-text'>{item.title}</p>
+        <Link to={"/item/" + item.id} className='product-card'>
+        <div>
+            <div>
+            <img src= {item.img} className='product-img' alt={item.title}/>
             </div>
+            <div className='card-info'>
+                <p className='product-title'>{item.title}</p>
+                <p ClassName='product-price'><b>Precio:</b> ${item.price}</p>
+
             </div>
         </div>
         </Link>

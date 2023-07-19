@@ -1,12 +1,14 @@
 import React from 'react'
 import { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
-import arrayProductos from '../../Json/arrayProductos.json'
 import ItemDetail from '../ItemDetail/ItemDetail'
+import arrayProductos from '../../Json/arrayProductos.json'
+import '../ItemDetail/ItemDetail.css';
 
 const ItemDetailContainer = () => {
     const [item, setItem] = useState([]);
-    const {id} = useParams ();
+    const {id} = useParams();
+
     useEffect(()=>{
         const promesa = new Promise((resolve)=>{
             setTimeout(()=>{
@@ -16,12 +18,12 @@ const ItemDetailContainer = () => {
             promesa.then((data)=>{
                 setItem(data)
             })
-            }, [id])
+    }, [id])
 
 
 
     return (
-    <div className='item_detail_container'>
+    <div className='item-detail-container'>
         <ItemDetail item={item}/>
     </div>
     )

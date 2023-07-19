@@ -5,7 +5,6 @@ import NavBar from '../src/components/NavBar/NavBar'
 import ItemListContainer from './components/ItemListContainer/ItemListContainer';
 import ItemDetailContainer from './components/ItemDetailContainer/ItemDetailContainer';
 import Error from '../src/components/Error';
-//Paginas React Router Dom//
 
 
 function App() {
