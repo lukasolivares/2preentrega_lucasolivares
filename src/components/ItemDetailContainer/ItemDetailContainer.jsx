@@ -1,23 +1,20 @@
 import React from 'react'
 import { useEffect, useState } from 'react'
-import { useParams } from 'react-router-dom'
+import { Form, useParams } from 'react-router-dom'
 import ItemDetail from '../ItemDetail/ItemDetail'
-import arrayProductos from '../../Json/arrayProductos.json'
-import '../ItemDetail/ItemDetail.css';
+import '../ItemDetail/ItemDetail.css'
+import {getFirestore, doc, getDoc} from 'firebase/firestore'
 
 const ItemDetailContainer = () => {
     const [item, setItem] = useState([]);
     const {id} = useParams();
 
     useEffect(()=>{
-        const promesa = new Promise((resolve)=>{
-            setTimeout(()=>{
-                resolve(arrayProductos.find(item=> item.id === parseInt(id)))
-                }, 2000)
-            });
-            promesa.then((data)=>{
-                setItem(data)
-            })
+        
+        const querydb = getFirestore ();
+        const queryDoc = doc(querydb, 'products', '13WiU4Q5qjRNHU1hIGdp');
+        getDoc(queryDoc)
+        .then(res => setItem(({id: res.id, ...res.data()})))
     }, [id])
 
 

@@ -1,7 +1,30 @@
+import { useContext, useState } from 'react'
 import React from 'react'
-import './ItemDetail.css';
+import './ItemDetail.css'
+import { getFirestore, getDoc, updateDoc } from 'firebase/firestore'
+import ItemCount from '../ItemCount/ItemCount'
+import { CartContext } from '../../context/CartContext'
 
 const ItemDetail = ({item}) => {
+    const funcionesContext = useContext(CartContext)
+
+    // const [cantidad, setCantidad] = useState(0)
+
+    // const handleOnAdd = (count) => {
+    //     setCantidad(count)
+    // }
+
+    // const handleStock = () =>{
+    //     const quarydb = getFirestore()
+    //     const itemDoc = getDoc(quarydb, 'Items', item.id)
+    //     const stockNuevo = item.stock + 3
+    //     updateDoc(itemDoc,{stock:stockNuevo})
+    // }
+
+
+
+
+
     return (
     <div>
         <div className='item-image'>
@@ -12,7 +35,9 @@ const ItemDetail = ({item}) => {
             <p className='item-description'>{item.description}</p>
             <p className='item-price'>$ {item.price}</p>
             <p className='item-stock'>Cantidad: {item.stock}</p>
-
+        </div>
+        <div>
+            <ItemCount stockItems={10}/>
         </div>
     </div>
     )
